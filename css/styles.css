@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+}
+
+div{
+    padding: 1px;
+    text-align: justify;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
+
+h4{
+    color: purple;
+}
+
+/* Center Image- changing from inline-element to block level element
+center img with margin 0(top and bottom) auto (left and right) */
+
+.ht-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* adding padding to all divs - 20px (top,bottom,left,right) */
+
